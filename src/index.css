@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding: 15px;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-image: url("1663887592_75-top-fon-com-p-temno-serie-oboi-na-telefon-foto-78.jpg");
+    background-size: 1500px;
+}
+
+header {
+    font-size: 20px;
+}
+
+a {
+    color: dimgrey;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    box-shadow: -24px 1px 60px 34px rgba(0, 0, 0, 0.34);}
+
+.box {
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    justify-content: center;
+    border-radius: 30px;
+    padding: 5px 15px;
+    background-color: slategrey;
+    margin: 40px 10px;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 8px 15px;
+    background-color: slategray;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    max-width: 1500px;
+}
