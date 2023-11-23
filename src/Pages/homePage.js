@@ -18,7 +18,7 @@ const HomePage = () => {
             <MealList meals={meals} />
                 <div className={'footer'}>
                     <h3>© 2023 The AidinFood</h3>
-                    <h3>Контактный номер +996(704) 40 50 98</h3>
+                    <h3>Контактный номер +996(704) 40 50 98x`</h3>
                 </div>
             </div>
         </>

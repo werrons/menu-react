@@ -17,8 +17,10 @@ const SearchPages = () => {
     return (
         <div className={'container'}>
             <Header/>
-            <input type="text" onChange={(e) => setInputMeal(e.target.value)}/>
-            <button onClick={handleClick}>Search</button>
+            <div className={'container1'}>
+                <input type="text" onChange={(e) => setInputMeal(e.target.value)}/>
+                <button onClick={handleClick}>Search</button>
+            </div>
             <MealList meals={search}/>
         </div>
     )
